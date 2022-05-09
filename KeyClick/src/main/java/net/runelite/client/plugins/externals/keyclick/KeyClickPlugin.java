@@ -10,6 +10,7 @@ import net.runelite.api.widgets.WidgetInfo;
 import net.runelite.api.widgets.WidgetItem;
 import net.runelite.client.Notifier;
 import net.runelite.client.config.ConfigManager;
+import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.plugins.Plugin;
@@ -32,6 +33,7 @@ import java.util.concurrent.TimeUnit;
 		tags = {"utility", "key"},
 		enabledByDefault = false
 )
+@Slf4j
 public class KeyClickPlugin extends Plugin
 {
 	@Inject
