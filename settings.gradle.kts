@@ -1,5 +1,6 @@
 rootProject.name = "public"
 
+include(":KeyClick")
 include(":Anonymizer")
 include(":AutoClicker")
 include(":AutoPrayFlick")
