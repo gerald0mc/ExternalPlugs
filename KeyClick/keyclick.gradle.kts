@@ -30,6 +30,10 @@ version = "6.2.0"
 project.extra["PluginName"] = "KeyClick"
 project.extra["PluginDescription"] = "When a set key is pressed it will perform a mouse input."
 
+dependencies {
+    implementation(project(":ExtUtils"))
+}
+
 tasks {
     jar {
         manifest {
